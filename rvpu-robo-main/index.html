@@ -1,0 +1,669 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>RV Public School Bengaluru | Inquiry-Based Learning | Pre-Nursery to Grade 10</title>
+  <meta name="description" content="RV Public School (RVPS), Bengaluru — Where learning begins with questions, not answers. Inquiry-based education from Pre-Nursery to Grade 10 with robotics, financial literacy, and art-integrated learning.">
+  <meta name="keywords" content="RVPS school, RV Public School Bengaluru, inquiry based learning school, robotics school Bengaluru, best school Bengaluru, Pre-Nursery Bengaluru, financial literacy school, art integrated learning">
+  <meta name="author" content="RV Public School">
+  <meta name="robots" content="index, follow">
+  <meta property="og:title" content="RV Public School | Let's Explore How Your Child Learns">
+  <meta property="og:description" content="Inquiry-based learning from Pre-Nursery to Grade 10. Robotics from Grade 3, Financial Literacy, Art-Integrated Learning.">
+  <meta property="og:type" content="website">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&family=DM+Sans:ital,opsz,wght@0,9..40,300;0,9..40,400;0,9..40,500;0,9..40,600;0,9..40,700;1,9..40,400&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+
+  <!-- Schema.org Structured Data -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "School",
+    "name": "RV Public School",
+    "alternateName": "RVPS",
+    "description": "Inquiry-based learning from Pre-Nursery to Grade 10 in Bengaluru. Part of RV Educational Institutions.",
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Bengaluru",
+      "addressRegion": "Karnataka",
+      "addressCountry": "IN"
+    },
+    "parentOrganization": {
+      "@type": "Organization",
+      "name": "RV Educational Institutions (Rashtreeya Sikshana Samiti Trust)"
+    },
+    "educationalLevel": ["Pre-Nursery", "Primary", "Middle School", "Secondary"],
+    "hasOfferCatalog": {
+      "@type": "OfferCatalog",
+      "name": "Programs",
+      "itemListElement": [
+        {"@type": "Course", "name": "Pre-Nursery to Grade 2"},
+        {"@type": "Course", "name": "Grade 3 to Grade 5"},
+        {"@type": "Course", "name": "Grade 6 to Grade 8"},
+        {"@type": "Course", "name": "Grade 9 to Grade 10"}
+      ]
+    }
+  }
+  </script>
+</head>
+<body>
+  <!-- Scroll Progress Bar -->
+  <div id="scroll-progress" aria-hidden="true"></div>
+
+  <!-- ===================== NAVIGATION ===================== -->
+  <nav id="main-nav" aria-label="Main Navigation">
+    <div class="nav-inner">
+      <a href="#hero" class="nav-logo" id="nav-logo">
+        <img src="assets/logo.png" alt="RV Public School Logo">
+      </a>
+      <ul class="nav-links" id="nav-links">
+        <li><a href="#section-campus" id="nav-campus">Campus</a></li>
+        <li><a href="#section-curriculum" id="nav-curriculum">Curriculum</a></li>
+        <li><a href="#section-learning" id="nav-learning">How We Teach</a></li>
+        <li><a href="#section-principal" id="nav-principal">Principal's Message</a></li>
+      </ul>
+      <a href="#section-campus" class="nav-cta" id="nav-visit-btn">Visit Campus</a>
+      <button class="nav-hamburger" id="nav-hamburger" aria-label="Toggle menu" aria-expanded="false">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </nav>
+
+  <!-- Mobile Menu Overlay -->
+  <div class="mobile-menu" id="mobile-menu" aria-hidden="true">
+    <ul>
+      <li><a href="#section-campus">Campus</a></li>
+      <li><a href="#section-curriculum">Curriculum</a></li>
+      <li><a href="#section-learning">How We Teach</a></li>
+      <li><a href="#section-principal">Principal's Message</a></li>
+      <li><a href="#section-campus" class="mobile-cta">Visit Campus</a></li>
+    </ul>
+  </div>
+
+  <!-- ===================== HERO SECTION ===================== -->
+  <section id="hero" class="hero-section">
+    <div class="hero-bg-mesh" aria-hidden="true"></div>
+    <div class="hero-content">
+      <!-- Left: Text -->
+      <div class="hero-text">
+        <p class="hero-sub">RV Public School, Bengaluru</p>
+        <h1 class="hero-headline">
+          <span class="word-reveal">Let's</span>
+          <span class="word-reveal">explore</span>
+          <span class="word-reveal">how</span>
+          <span class="word-reveal">your</span>
+          <span class="word-reveal">child</span>
+          <span class="word-reveal accent-word">learns.</span>
+        </h1>
+        <p class="hero-desc">
+          At RVPS, learning begins with questions, not answers. From Pre-Nursery to Grade 10, students are taught to engage with what they learn. They do not just remember it. Lessons move through discussion, research, and hands-on work, so children learn to observe, ask questions, and make sense of the world around them.
+        </p>
+      </div>
+
+      <!-- Right: Robot Mascot -->
+      <div class="hero-mascot-area">
+        <div class="robot-container">
+          <div class="robot-glow" aria-hidden="true"></div>
+          <!-- SVG Robot Mascot -->
+          <svg class="robot-svg" id="robot-svg" viewBox="0 0 260 300" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <!-- Antenna -->
+            <g class="robot-antenna">
+              <line x1="130" y1="25" x2="130" y2="55" stroke="#1a3a5c" stroke-width="4" stroke-linecap="round"/>
+              <circle cx="130" cy="20" r="8" fill="#e8a838"/>
+              <circle cx="130" cy="20" r="4" fill="#f0c060" opacity="0.8"/>
+            </g>
+            <!-- Head -->
+            <g class="robot-head">
+              <rect x="80" y="55" width="100" height="75" rx="20" fill="#1a3a5c"/>
+              <rect x="85" y="60" width="90" height="65" rx="17" fill="#2a5a8f"/>
+              <!-- Eyes -->
+              <g class="robot-eye">
+                <circle cx="110" cy="92" r="12" fill="white"/>
+                <circle cx="110" cy="92" r="7" fill="#0e1a2e"/>
+                <circle cx="107" cy="89" r="2.5" fill="white"/>
+              </g>
+              <g class="robot-eye">
+                <circle cx="150" cy="92" r="12" fill="white"/>
+                <circle cx="150" cy="92" r="7" fill="#0e1a2e"/>
+                <circle cx="147" cy="89" r="2.5" fill="white"/>
+              </g>
+              <!-- Smile -->
+              <path d="M115 112 Q130 122 145 112" stroke="white" stroke-width="3" stroke-linecap="round" fill="none"/>
+              <!-- Cheek lights -->
+              <circle cx="95" cy="100" r="6" fill="#2d8a4e" opacity="0.6"/>
+              <circle cx="165" cy="100" r="6" fill="#2d8a4e" opacity="0.6"/>
+            </g>
+            <!-- Body -->
+            <g class="robot-body">
+              <rect x="75" y="135" width="110" height="90" rx="15" fill="#1a3a5c"/>
+              <rect x="80" y="140" width="100" height="80" rx="12" fill="#2a5a8f"/>
+              <!-- Chest panel -->
+              <rect x="100" y="155" width="60" height="40" rx="8" fill="#1a3a5c"/>
+              <rect x="105" y="160" width="50" height="30" rx="6" fill="#0e1a2e"/>
+              <!-- Heart/core -->
+              <circle cx="130" cy="175" r="10" fill="#2d8a4e"/>
+              <circle cx="130" cy="175" r="5" fill="#3aaf63">
+                <animate attributeName="opacity" values="1;0.4;1" dur="2s" repeatCount="indefinite"/>
+              </circle>
+              <!-- Panel lines -->
+              <line x1="110" y1="200" x2="150" y2="200" stroke="#1a3a5c" stroke-width="2" opacity="0.5"/>
+              <line x1="115" y1="207" x2="145" y2="207" stroke="#1a3a5c" stroke-width="2" opacity="0.3"/>
+            </g>
+            <!-- Left Arm -->
+            <g class="robot-arm-left">
+              <rect x="45" y="145" width="28" height="65" rx="14" fill="#1a3a5c"/>
+              <rect x="48" y="148" width="22" height="59" rx="11" fill="#2a5a8f"/>
+              <!-- Hand -->
+              <circle cx="59" cy="215" r="12" fill="#1a3a5c"/>
+              <circle cx="59" cy="215" r="8" fill="#2a5a8f"/>
+            </g>
+            <!-- Right Arm (waving) -->
+            <g class="robot-arm-right">
+              <rect x="187" y="145" width="28" height="65" rx="14" fill="#1a3a5c"/>
+              <rect x="190" y="148" width="22" height="59" rx="11" fill="#2a5a8f"/>
+              <!-- Hand -->
+              <circle cx="201" cy="215" r="12" fill="#1a3a5c"/>
+              <circle cx="201" cy="215" r="8" fill="#2a5a8f"/>
+            </g>
+            <!-- Legs -->
+            <g class="robot-legs">
+              <rect x="95" y="225" width="25" height="45" rx="12" fill="#1a3a5c"/>
+              <rect x="98" y="228" width="19" height="39" rx="9" fill="#2a5a8f"/>
+              <rect x="140" y="225" width="25" height="45" rx="12" fill="#1a3a5c"/>
+              <rect x="143" y="228" width="19" height="39" rx="9" fill="#2a5a8f"/>
+              <!-- Feet -->
+              <rect x="88" y="265" width="38" height="14" rx="7" fill="#1a3a5c"/>
+              <rect x="134" y="265" width="38" height="14" rx="7" fill="#1a3a5c"/>
+            </g>
+          </svg>
+        </div>
+
+        <!-- Speech Bubble -->
+        <div class="speech-bubble" id="mascot-bubble">
+          <p class="bubble-greeting">Hi! I'm the RVPS Explorer Bot 🤖</p>
+          <p class="bubble-text">Want a quick tour of our school?</p>
+        </div>
+      </div>
+    </div>
+
+    <!-- Interactive Explore Buttons (below hero grid) -->
+    <div class="explore-question" id="explore-question">
+      <h3>What would you like to understand first?</h3>
+      <div class="explore-buttons" id="explore-buttons">
+        <button class="explore-btn" data-target="section-campus" id="btn-campus">
+          <span class="btn-icon">🏫</span>
+          <span class="btn-label">Explore the Campus</span>
+        </button>
+        <button class="explore-btn" data-target="section-curriculum" id="btn-curriculum">
+          <span class="btn-icon">📚</span>
+          <span class="btn-label">Classroom Activities & Courses</span>
+        </button>
+        <button class="explore-btn" data-target="section-learning" id="btn-learning">
+          <span class="btn-icon">🧠</span>
+          <span class="btn-label">How Students Learn at RVPS</span>
+        </button>
+        <button class="explore-btn" data-target="section-principal" id="btn-principal">
+          <span class="btn-icon">🎓</span>
+          <span class="btn-label">What the Principal has to say</span>
+        </button>
+      </div>
+      <div class="explore-progress" id="explore-progress">
+        <span>Explored:</span>
+        <div class="progress-dots">
+          <div class="progress-dot" data-section="section-campus"></div>
+          <div class="progress-dot" data-section="section-curriculum"></div>
+          <div class="progress-dot" data-section="section-learning"></div>
+          <div class="progress-dot" data-section="section-principal"></div>
+        </div>
+        <span id="progress-count">0 / 4</span>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===================== MARQUEE TICKER ===================== -->
+  <div class="marquee-strip" aria-hidden="true">
+    <div class="marquee-track">
+      <div class="marquee-content">
+        <span>Inquiry-Based Learning</span><span class="marquee-dot">✦</span>
+        <span>Robotics from Grade 3</span><span class="marquee-dot">✦</span>
+        <span>Financial Literacy</span><span class="marquee-dot">✦</span>
+        <span>Art-Integrated Learning</span><span class="marquee-dot">✦</span>
+        <span>Pre-Nursery to Grade 10</span><span class="marquee-dot">✦</span>
+        <span>Independent Thinkers</span><span class="marquee-dot">✦</span>
+        <span>Barter Learning</span><span class="marquee-dot">✦</span>
+        <span>Questions Lead to Discovery</span><span class="marquee-dot">✦</span>
+      </div>
+      <div class="marquee-content" aria-hidden="true">
+        <span>Inquiry-Based Learning</span><span class="marquee-dot">✦</span>
+        <span>Robotics from Grade 3</span><span class="marquee-dot">✦</span>
+        <span>Financial Literacy</span><span class="marquee-dot">✦</span>
+        <span>Art-Integrated Learning</span><span class="marquee-dot">✦</span>
+        <span>Pre-Nursery to Grade 10</span><span class="marquee-dot">✦</span>
+        <span>Independent Thinkers</span><span class="marquee-dot">✦</span>
+        <span>Barter Learning</span><span class="marquee-dot">✦</span>
+        <span>Questions Lead to Discovery</span><span class="marquee-dot">✦</span>
+      </div>
+    </div>
+  </div>
+
+  <!-- ===================== SECTION 1: EXPLORE THE CAMPUS ===================== -->
+  <section id="section-campus" class="explore-section">
+    <div class="container">
+      <div class="mascot-inline scroll-reveal">
+        <div class="mascot-inline-icon">🤖</div>
+        <p class="mascot-inline-text">"Students learn best in the right environment. Let me show you around our campus."</p>
+      </div>
+
+      <div class="section-header scroll-reveal">
+        <p class="section-subheadline">Step Inside</p>
+        <h2 class="section-headline">Our <span class="gradient-text">Campus</span></h2>
+        <p class="section-desc">A thoughtfully designed space where curiosity thrives. From bright classrooms to open play areas, every corner is built for learning.</p>
+      </div>
+
+      <div class="campus-gallery scroll-reveal">
+        <div class="campus-photo">
+          <img src="assets/campus-building.png" alt="RVPS Main Building. Modern school campus in Bengaluru." loading="lazy">
+        </div>
+        <div class="campus-photo">
+          <img src="assets/campus-garden.png" alt="RVPS Green Campus. Lush gardens and play areas." loading="lazy">
+        </div>
+        <div class="campus-photo">
+          <img src="assets/science-lab.png" alt="RVPS Science Lab. Modern lab with microscopes and equipment." loading="lazy">
+        </div>
+      </div>
+
+      <div class="campus-map scroll-reveal">
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3888.5!2d77.5!3d12.95!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zMTLCsDU3JzAwLjAiTiA3N8KwMzAnMDAuMCJF!5e0!3m2!1sen!2sin!4v1000000000" allowfullscreen="" loading="lazy" title="RVPS Location on Google Maps"></iframe>
+      </div>
+
+      <div class="campus-cta scroll-reveal">
+        <a href="#" class="btn btn-primary btn-lg" id="visit-campus-btn">
+          <span>Schedule a Campus Visit</span>
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
+        </a>
+      </div>
+    </div>
+
+    <!-- Mascot reappears with remaining options -->
+    <div class="mascot-reappear" id="reappear-campus">
+      <div class="mascot-emoji">🤖</div>
+      <div class="reappear-bubble">
+        <p>Great! What would you like to explore next?</p>
+      </div>
+      <div class="remaining-buttons" id="remaining-campus"></div>
+    </div>
+  </section>
+
+  <!-- ===================== SECTION 2: CLASSROOM ACTIVITIES & COURSES ===================== -->
+  <section id="section-curriculum" class="explore-section">
+    <div class="container">
+      <div class="mascot-inline scroll-reveal">
+        <div class="mascot-inline-icon">🤖</div>
+        <p class="mascot-inline-text">"Each stage is designed around how children actually learn at that age. Take a look!"</p>
+      </div>
+
+      <div class="section-header scroll-reveal">
+        <p class="section-subheadline">What We Teach</p>
+        <h2 class="section-headline">Classroom Activities & <span class="gradient-text">Courses</span></h2>
+        <p class="section-desc">From foundational play to advanced problem-solving. Every grade has a purpose-built curriculum that goes beyond textbooks.</p>
+      </div>
+
+      <!-- Grade Tabs -->
+      <div class="curriculum-tabs scroll-reveal" id="curriculum-tabs">
+        <button class="curr-tab active" data-panel="panel-pn" id="tab-pn">Pre-Nursery. KG.</button>
+        <button class="curr-tab" data-panel="panel-g1" id="tab-g1">Grade 1. Grade 2.</button>
+        <button class="curr-tab" data-panel="panel-g3" id="tab-g3">Grade 3. Grade 5.</button>
+        <button class="curr-tab" data-panel="panel-g6" id="tab-g6">Grade 6. Grade 8.</button>
+        <button class="curr-tab" data-panel="panel-g9" id="tab-g9">Grade 9. Grade 10.</button>
+      </div>
+
+      <!-- Panels -->
+      <div id="panel-pn" class="curr-panel active">
+        <div class="activity-grid">
+          <div class="activity-card scroll-reveal">
+            <div class="activity-icon">🎨</div>
+            <h4>Sensory Play & Art</h4>
+            <p>Children explore textures, colours, and shapes through guided creative activities that build fine motor skills and imagination.</p>
+            <span class="activity-tag tag-art">Art-Integrated</span>
+          </div>
+          <div class="activity-card scroll-reveal">
+            <div class="activity-icon">🎵</div>
+            <h4>Music & Movement</h4>
+            <p>Rhythmic activities, singing, and movement games that develop coordination, listening skills, and self-expression.</p>
+            <span class="activity-tag tag-music">Music</span>
+          </div>
+          <div class="activity-card scroll-reveal">
+            <div class="activity-icon">📖</div>
+            <h4>Story. Based Learning.</h4>
+            <p>Stories become starting points for learning. Children discuss, role-play, and build vocabulary through narrative exploration.</p>
+            <span class="activity-tag tag-core">Core Learning</span>
+          </div>
+          <div class="activity-card scroll-reveal">
+            <div class="activity-icon">🌱</div>
+            <h4>Nature Discovery</h4>
+            <p>Outdoor activities that help little learners observe plants, insects, weather. This builds early scientific thinking naturally.</p>
+            <span class="activity-tag tag-core">Core Learning</span>
+          </div>
+        </div>
+      </div>
+
+      <div id="panel-g1" class="curr-panel">
+        <div class="activity-grid">
+          <div class="activity-card scroll-reveal">
+            <div class="activity-icon">🔤</div>
+            <h4>Literacy & Numeracy</h4>
+            <p>Structured reading, writing, and maths foundations using visual aids, manipulatives, and interactive worksheets.</p>
+            <span class="activity-tag tag-core">Core Learning</span>
+          </div>
+          <div class="activity-card scroll-reveal">
+            <div class="activity-icon">🎭</div>
+            <h4>Art. Integrated Learning.</h4>
+            <p>Subjects taught through art, craft, and role-play so that concepts are felt, not just memorized.</p>
+            <span class="activity-tag tag-art">Art-Integrated</span>
+          </div>
+          <div class="activity-card scroll-reveal">
+            <div class="activity-icon">🏃</div>
+            <h4>Physical Education</h4>
+            <p>Structured physical activity, sport basics, and team games that develop motor skills and teamwork.</p>
+            <span class="activity-tag tag-sports">Sports</span>
+          </div>
+          <div class="activity-card scroll-reveal">
+            <div class="activity-icon">🧩</div>
+            <h4>Puzzle & Logic Games</h4>
+            <p>Age-appropriate puzzles and strategy games that build early reasoning and problem-solving abilities.</p>
+            <span class="activity-tag tag-core">Core Learning</span>
+          </div>
+        </div>
+      </div>
+
+      <div id="panel-g3" class="curr-panel">
+        <div class="activity-grid">
+          <div class="activity-card scroll-reveal">
+            <div class="activity-icon">🤖</div>
+            <h4>Robotics</h4>
+            <p>Students begin building and programming simple robots. They learn coding logic, mechanics, and teamwork from Grade 3 onwards.</p>
+            <span class="activity-tag tag-robotics">Robotics</span>
+          </div>
+          <div class="activity-card scroll-reveal">
+            <div class="activity-icon">💰</div>
+            <h4>Financial Literacy</h4>
+            <p>Children learn the value of money, saving, budgeting, and basic economics through real-world simulations.</p>
+            <span class="activity-tag tag-finance">Financial Literacy</span>
+          </div>
+          <div class="activity-card scroll-reveal">
+            <div class="activity-icon">🔄</div>
+            <h4>Barter Learning</h4>
+            <p>A unique system where students trade skills and knowledge. They learn negotiation, value assessment, and collaboration.</p>
+            <span class="activity-tag tag-finance">Barter System</span>
+          </div>
+          <div class="activity-card scroll-reveal">
+            <div class="activity-icon">🎨</div>
+            <h4>Art. Integrated Projects.</h4>
+            <p>Science through sculpture, maths through architecture, history through drama. Subjects merge with creative expression.</p>
+            <span class="activity-tag tag-art">Art-Integrated</span>
+          </div>
+        </div>
+      </div>
+
+      <div id="panel-g6" class="curr-panel">
+        <div class="activity-grid">
+          <div class="activity-card scroll-reveal">
+            <div class="activity-icon">🤖</div>
+            <h4>Advanced Robotics & Coding</h4>
+            <p>Students design complex robotics projects, learn Python basics, and participate in inter-school competitions.</p>
+            <span class="activity-tag tag-robotics">Robotics</span>
+          </div>
+          <div class="activity-card scroll-reveal">
+            <div class="activity-icon">🔬</div>
+            <h4>Lab. Based Science.</h4>
+            <p>Hands-on experiments in physics, chemistry, and biology labs. Students hypothesize, test, and document findings.</p>
+            <span class="activity-tag tag-core">Core Learning</span>
+          </div>
+          <div class="activity-card scroll-reveal">
+            <div class="activity-icon">📊</div>
+            <h4>Research Projects</h4>
+            <p>Guided research projects where students identify questions, gather data, analyze patterns, and present conclusions.</p>
+            <span class="activity-tag tag-core">Core Learning</span>
+          </div>
+          <div class="activity-card scroll-reveal">
+            <div class="activity-icon">🎵</div>
+            <h4>Music & Performing Arts</h4>
+            <p>Structured music training, theatre, and dance performances that build confidence and creative expression.</p>
+            <span class="activity-tag tag-music">Music</span>
+          </div>
+        </div>
+      </div>
+
+      <div id="panel-g9" class="curr-panel">
+        <div class="activity-grid">
+          <div class="activity-card scroll-reveal">
+            <div class="activity-icon">📐</div>
+            <h4>Board Exam Preparation</h4>
+            <p>Rigorous academic preparation with concept clarity, practice tests, and personalized feedback for Grade 10 boards.</p>
+            <span class="activity-tag tag-core">Core Learning</span>
+          </div>
+          <div class="activity-card scroll-reveal">
+            <div class="activity-icon">💻</div>
+            <h4>Advanced Technology</h4>
+            <p>Web development, app design, and data analysis. Students build real projects that go on their portfolio.</p>
+            <span class="activity-tag tag-robotics">Technology</span>
+          </div>
+          <div class="activity-card scroll-reveal">
+            <div class="activity-icon">💼</div>
+            <h4>Career Awareness</h4>
+            <p>Industry visits, career counselling, and aptitude assessments help students make informed choices for their future.</p>
+            <span class="activity-tag tag-core">Core Learning</span>
+          </div>
+          <div class="activity-card scroll-reveal">
+            <div class="activity-icon">🏆</div>
+            <h4>Competitions & Olympiads</h4>
+            <p>Preparation and participation in national and international academic olympiads, science fairs, and quiz competitions.</p>
+            <span class="activity-tag tag-sports">Competitions</span>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Mascot reappears -->
+    <div class="mascot-reappear" id="reappear-curriculum">
+      <div class="mascot-emoji">🤖</div>
+      <div class="reappear-bubble">
+        <p>Interesting, right? There's more to explore!</p>
+      </div>
+      <div class="remaining-buttons" id="remaining-curriculum"></div>
+    </div>
+  </section>
+
+  <!-- ===================== SECTION 3: HOW STUDENTS LEARN ===================== -->
+  <section id="section-learning" class="explore-section">
+    <div class="container">
+      <div class="mascot-inline scroll-reveal">
+        <div class="mascot-inline-icon">🤖</div>
+        <p class="mascot-inline-text">"Questions lead to discovery here. Let me show you the learning journey at RVPS."</p>
+      </div>
+
+      <div class="section-header scroll-reveal">
+        <p class="section-subheadline">Our Approach</p>
+        <h2 class="section-headline">How Students <span class="gradient-text">Learn</span> at RVPS</h2>
+        <p class="section-desc">We don't hand students answers. We teach them how to find their own. Here's the thinking process we nurture.</p>
+      </div>
+
+      <!-- Learning Flow Visualization -->
+      <div class="learning-flow scroll-reveal">
+        <div class="flow-step">
+          <div class="flow-icon">👀</div>
+          <span class="flow-label">Observe</span>
+        </div>
+        <span class="flow-arrow">→</span>
+        <div class="flow-step">
+          <div class="flow-icon">❓</div>
+          <span class="flow-label">Question</span>
+        </div>
+        <span class="flow-arrow">→</span>
+        <div class="flow-step">
+          <div class="flow-icon">🔍</div>
+          <span class="flow-label">Research</span>
+        </div>
+        <span class="flow-arrow">→</span>
+        <div class="flow-step">
+          <div class="flow-icon">💡</div>
+          <span class="flow-label">Understand</span>
+        </div>
+        <span class="flow-arrow">→</span>
+        <div class="flow-step">
+          <div class="flow-icon">🚀</div>
+          <span class="flow-label">Apply</span>
+        </div>
+      </div>
+
+      <!-- Learning Detail Cards -->
+      <div class="learning-details scroll-reveal">
+        <div class="learning-card">
+          <h4>🧭 Inquiry. Based Learning.</h4>
+          <p>Every lesson starts with a question. Students aren't told what to think. They are guided to discover answers through observation, discussion, and exploration.</p>
+        </div>
+        <div class="learning-card">
+          <h4>🤝 Collaborative Thinking</h4>
+          <p>Students work in small groups, sharing perspectives and challenging each other's ideas. They learn that knowledge isn't just about getting the right answer — it's about understanding why it's right.</p>
+        </div>
+        <div class="learning-card">
+          <h4>🔬 Hands. On Research.</h4>
+          <p>From simple experiments in primary school to structured research projects in middle school, students learn to gather data, form hypotheses, and draw conclusions from evidence. These are skills that last a lifetime.</p>
+        </div>
+        <div class="learning-card">
+          <h4>🎯 Independent Mindset</h4>
+          <p>The ultimate goal: students who can think for themselves. They learn how to find information, evaluate it critically, and use it with clarity. Over time, this builds confidence and a steady, problem-solving approach to life.</p>
+        </div>
+      </div>
+    </div>
+
+    <!-- Mascot reappears -->
+    <div class="mascot-reappear" id="reappear-learning">
+      <div class="mascot-emoji">🤖</div>
+      <div class="reappear-bubble">
+        <p>Now you know how we think differently! What's next?</p>
+      </div>
+      <div class="remaining-buttons" id="remaining-learning"></div>
+    </div>
+  </section>
+
+  <!-- ===================== SECTION 4: PRINCIPAL'S MESSAGE ===================== -->
+  <section id="section-principal" class="explore-section">
+    <div class="container">
+      <div class="mascot-inline scroll-reveal">
+        <div class="mascot-inline-icon">🤖</div>
+        <p class="mascot-inline-text">"Here's what our Principal has to say about the vision behind RVPS."</p>
+      </div>
+
+      <div class="section-header scroll-reveal">
+        <p class="section-subheadline">From The Principal</p>
+        <h2 class="section-headline">A <span class="gradient-text">Message</span> to Parents</h2>
+      </div>
+
+      <div class="principal-card scroll-reveal">
+        <div class="principal-photo">
+          <img src="assets/principal.png" alt="Principal, RV Public School" loading="lazy">
+        </div>
+        <div class="principal-content">
+          <blockquote>
+            "At RV Public School, we believe every child is born curious. Our role as educators is not to fill their minds with information, but to kindle the flame of inquiry that already exists within them.
+            <br><br>
+            We have built RVPS around a simple principle: if children learn how to think, they can learn anything. Our curriculum is designed to encourage questioning, foster collaboration, and develop the independent thinking skills that will serve them throughout their lives.
+            <br><br>
+            From robotics and financial literacy to art-integrated learning and research-based projects, every element of our school is purposefully designed to prepare children not just for exams, but for the world beyond them.
+            <br><br>
+            I invite you to visit our campus, meet our teachers, and see for yourself how learning comes alive at RVPS."
+          </blockquote>
+          <p class="principal-name">Lorem Ipsum</p>
+          <p class="principal-title">Principal, RV Public School</p>
+        </div>
+      </div>
+    </div>
+
+    <!-- Mascot reappears -->
+    <div class="mascot-reappear" id="reappear-principal">
+      <div class="mascot-emoji">🤖</div>
+      <div class="reappear-bubble">
+        <p>That's our vision! Still curious about something?</p>
+      </div>
+      <div class="remaining-buttons" id="remaining-principal"></div>
+    </div>
+  </section>
+
+  <!-- ===================== FINAL CTA SECTION ===================== -->
+  <section class="final-cta-section" id="final-cta">
+    <div class="container">
+      <div class="final-cta-card scroll-reveal">
+        <div class="final-cta-content">
+          <div class="final-mascot">🤖</div>
+          <h2>Want to see how students learn in real life?</h2>
+          <p>Visit the RVPS campus. Walk through our classrooms, meet our teachers, and experience the difference for yourself.</p>
+          <a href="#" class="btn btn-white btn-lg" id="final-visit-btn">
+            <span>Visit the RVPS Campus!</span>
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
+          </a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===================== FOOTER ===================== -->
+  <footer id="main-footer" class="site-footer">
+    <div class="container">
+      <div class="footer-grid">
+        <div class="footer-brand">
+          <h2>RV Public School</h2>
+          <p>Where learning begins with questions, not answers.</p>
+          <p class="footer-trust">Pre-Nursery to Grade 10 · Rashtreeya Sikshana Samiti Trust</p>
+          <div class="footer-socials">
+            <a href="#" aria-label="Instagram" class="social-link" id="social-insta">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="2" y="2" width="20" height="20" rx="5"/><circle cx="12" cy="12" r="5"/><circle cx="17.5" cy="6.5" r="1.5"/></svg>
+            </a>
+            <a href="#" aria-label="Facebook" class="social-link" id="social-fb">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M18 2h-3a5 5 0 00-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 011-1h3z"/></svg>
+            </a>
+            <a href="#" aria-label="YouTube" class="social-link" id="social-yt">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22.54 6.42a2.78 2.78 0 00-1.94-2C18.88 4 12 4 12 4s-6.88 0-8.6.46a2.78 2.78 0 00-1.94 2A29 29 0 001 11.75a29 29 0 00.46 5.33A2.78 2.78 0 003.4 19.1c1.72.46 8.6.46 8.6.46s6.88 0 8.6-.46a2.78 2.78 0 001.94-2 29 29 0 00.46-5.25 29 29 0 00-.46-5.43z"/><polygon points="9.75 15.02 15.5 11.75 9.75 8.48 9.75 15.02"/></svg>
+            </a>
+          </div>
+        </div>
+        <div class="footer-links">
+          <h3>Quick Links</h3>
+          <ul>
+            <li><a href="#hero">Home</a></li>
+            <li><a href="#section-campus">Campus</a></li>
+            <li><a href="#section-curriculum">Curriculum</a></li>
+            <li><a href="#section-learning">How We Teach</a></li>
+            <li><a href="#section-principal">Principal's Message</a></li>
+          </ul>
+        </div>
+        <div class="footer-links">
+          <h3>Programs</h3>
+          <ul>
+            <li><a href="#section-curriculum">Pre-Nursery – KG</a></li>
+            <li><a href="#section-curriculum">Grade 1 – 5</a></li>
+            <li><a href="#section-curriculum">Grade 6 – 8</a></li>
+            <li><a href="#section-curriculum">Grade 9 – 10</a></li>
+          </ul>
+        </div>
+        <div class="footer-links">
+          <h3>Contact</h3>
+          <ul>
+            <li><a href="#">Lorem Ipsum Address,<br>Bengaluru, Karnataka</a></li>
+            <li><a href="tel:+919999999999">+91 99999 99999</a></li>
+            <li><a href="mailto:info@rvps.edu.in">info@rvps.edu.in</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <p>&copy; 2025 RV Public School, Bengaluru. All Rights Reserved.</p>
+        <p>Part of <strong>RV Educational Institutions</strong> (Rashtreeya Sikshana Samiti Trust)</p>
+      </div>
+    </div>
+  </footer>
+
+  <script src="app.js"></script>
+</body>
+</html>
