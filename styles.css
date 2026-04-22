@@ -388,7 +388,7 @@ ul { list-style: none; }
 
 /* SVG Robot Container */
 .robot-container {
-  width: 260px;
+  width: 320px;
   height: 300px;
   position: relative;
   margin-bottom: 1.5rem;
@@ -397,6 +397,7 @@ ul { list-style: none; }
 .robot-svg {
   width: 100%;
   height: 100%;
+  overflow: visible;
 }
 
 /* Robot Assembly Animation */
@@ -444,8 +445,8 @@ ul { list-style: none; }
   animation: robotHeadBob 3s ease-in-out infinite;
 }
 .robot-svg.assembled .robot-arm-right {
-  animation: robotWave 2s ease-in-out infinite;
-  transform-origin: left top;
+  animation: robotWave 1.6s ease-in-out infinite;
+  transform-origin: 201px 145px;
 }
 
 /* Robot eye blink */
@@ -1304,9 +1305,13 @@ ul { list-style: none; }
   50% { transform: translateY(-6px); }
 }
 @keyframes robotWave {
-  0%, 100% { transform: rotate(0deg); }
-  25% { transform: rotate(-10deg); }
-  75% { transform: rotate(10deg); }
+  0%   { transform: rotate(-115deg); }
+  15%  { transform: rotate(-95deg); }
+  30%  { transform: rotate(-120deg); }
+  45%  { transform: rotate(-95deg); }
+  60%  { transform: rotate(-120deg); }
+  75%  { transform: rotate(-100deg); }
+  100% { transform: rotate(-115deg); }
 }
 @keyframes robotBlink {
   0%, 45%, 55%, 100% { transform: scaleY(1); }
